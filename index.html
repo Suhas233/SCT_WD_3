@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+
+    <div class="mode-selector">
+      <label><input type="radio" name="mode" value="player" checked> Two Players</label>
+      <label><input type="radio" name="mode" value="computer"> Vs Computer</label>
+    </div>
+
+    <div class="board" id="board"></div>
+    <p id="status">Player X's Turn</p>
+    <button id="reset">Reset Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
